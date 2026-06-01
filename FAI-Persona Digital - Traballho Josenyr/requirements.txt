@@ -1,0 +1,8 @@
+streamlit
+PIL.Image as Image
+requests
+time
+os
+firebase
+google-gemini
+pandas
