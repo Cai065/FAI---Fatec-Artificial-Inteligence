@@ -5,10 +5,10 @@ import time
 import os
 
 
-fai_status_idle = WhatsApp_Image_2026-05-17_at_15.34.09-removebg-preview.png"      
-fai_status_thinking = 1.pensando-removebg-preview.png" 
-fai_status_talking = Gemini_Generated_Image_eopgh7eopgh7eopg.png"  
-logo_fatec_path = fatec-identidade.webp"
+fai_status_idle = r"WhatsApp_Image_2026-05-17_at_15.34.09-removebg-preview.png"      
+fai_status_thinking = r"1.pensando-removebg-preview.png" 
+fai_status_talking = r"Gemini_Generated_Image_eopgh7eopgh7eopg.png"  
+logo_fatec_path = r"fatec-identidade.webp"
 
 st.set_page_config(page_title="Secretaria FAI", page_icon=r"c:\Users\Desktop\Downloads\fatec-identidade.webp")
 
