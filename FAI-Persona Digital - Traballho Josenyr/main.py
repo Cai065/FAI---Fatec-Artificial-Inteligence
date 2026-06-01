@@ -78,7 +78,6 @@ if pergunta_usuario:
         with st.chat_message("assistant", avatar=avatar_thinking):
             with st.spinner("FAI está verificando os registros..."):
                 try:
-                   r
                     payload = {
                         "session_id": "sessao_fai_caio", 
                         "user_email": email, 
