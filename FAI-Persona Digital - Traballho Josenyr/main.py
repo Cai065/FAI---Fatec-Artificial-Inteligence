@@ -86,7 +86,7 @@ if pergunta_usuario:
                         "unidade": fatec_selecionada,
                         "curso": curso_selecionado
                     }
-                    res = requests.post("http://localhost:5678/webhook/Fai-ChatBot", json=payload, timeout=30)
+                    res = requests.post("http://localhost:7860/webhook/Fai-ChatBot", json=payload, timeout=30)
                     
                     if res.status_code == 200:
                         texto_ia = res.text
