@@ -10,7 +10,7 @@ fai_status_thinking = r"1.pensando-removebg-preview.png"
 fai_status_talking = r"Gemini_Generated_Image_eopgh7eopgh7eopg.png"  
 logo_fatec_path = r"fatec-identidade.webp"
 
-st.set_page_config(page_title="Secretaria FAI", page_icon=r"c:\Users\Desktop\Downloads\fatec-identidade.webp")
+st.set_page_config(page_title="Secretaria FAI", page_icon=r"fatec-identidade.webp")
 
 def obter_avatar(caminho_imagem, emoji_padrao):
     if os.path.exists(caminho_imagem):
